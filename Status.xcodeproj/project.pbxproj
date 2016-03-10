@@ -13,6 +13,10 @@
 		AC9862B71C911E830025D5D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9862B51C911E830025D5D9 /* Main.storyboard */; };
 		AC9862B91C911E830025D5D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9862B81C911E830025D5D9 /* Assets.xcassets */; };
 		AC9862BC1C911E830025D5D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9862BA1C911E830025D5D9 /* LaunchScreen.storyboard */; };
+		AC9862C51C911EF10025D5D9 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9862C41C911EF10025D5D9 /* ViewControllerA.m */; };
+		AC9862C81C911EFD0025D5D9 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9862C71C911EFD0025D5D9 /* ViewControllerB.m */; };
+		AC9862CB1C911F150025D5D9 /* UIViewController+Status.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9862CA1C911F150025D5D9 /* UIViewController+Status.m */; };
+		AC9862CD1C911F940025D5D9 /* Status.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9862CC1C911F940025D5D9 /* Status.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,13 @@
 		AC9862B81C911E830025D5D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9862BB1C911E830025D5D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9862BD1C911E830025D5D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9862C31C911EF10025D5D9 /* ViewControllerA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		AC9862C41C911EF10025D5D9 /* ViewControllerA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
+		AC9862C61C911EFD0025D5D9 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		AC9862C71C911EFD0025D5D9 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		AC9862C91C911F150025D5D9 /* UIViewController+Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Status.h"; sourceTree = "<group>"; };
+		AC9862CA1C911F150025D5D9 /* UIViewController+Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Status.m"; sourceTree = "<group>"; };
+		AC9862CC1C911F940025D5D9 /* Status.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Status.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +69,8 @@
 		AC9862AB1C911E830025D5D9 /* Status */ = {
 			isa = PBXGroup;
 			children = (
-				AC9862AF1C911E830025D5D9 /* AppDelegate.h */,
-				AC9862B01C911E830025D5D9 /* AppDelegate.m */,
-				AC9862B21C911E830025D5D9 /* ViewController.h */,
-				AC9862B31C911E830025D5D9 /* ViewController.m */,
-				AC9862B51C911E830025D5D9 /* Main.storyboard */,
+				AC9862CF1C912C730025D5D9 /* ExampleUsage */,
+				AC9862CE1C912C620025D5D9 /* Status */,
 				AC9862B81C911E830025D5D9 /* Assets.xcassets */,
 				AC9862BA1C911E830025D5D9 /* LaunchScreen.storyboard */,
 				AC9862BD1C911E830025D5D9 /* Info.plist */,
@@ -77,6 +85,32 @@
 				AC9862AD1C911E830025D5D9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9862CE1C912C620025D5D9 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				AC9862C91C911F150025D5D9 /* UIViewController+Status.h */,
+				AC9862CA1C911F150025D5D9 /* UIViewController+Status.m */,
+				AC9862CC1C911F940025D5D9 /* Status.xib */,
+			);
+			name = Status;
+			sourceTree = "<group>";
+		};
+		AC9862CF1C912C730025D5D9 /* ExampleUsage */ = {
+			isa = PBXGroup;
+			children = (
+				AC9862AF1C911E830025D5D9 /* AppDelegate.h */,
+				AC9862B01C911E830025D5D9 /* AppDelegate.m */,
+				AC9862B21C911E830025D5D9 /* ViewController.h */,
+				AC9862B31C911E830025D5D9 /* ViewController.m */,
+				AC9862C31C911EF10025D5D9 /* ViewControllerA.h */,
+				AC9862C41C911EF10025D5D9 /* ViewControllerA.m */,
+				AC9862C61C911EFD0025D5D9 /* ViewControllerB.h */,
+				AC9862C71C911EFD0025D5D9 /* ViewControllerB.m */,
+				AC9862B51C911E830025D5D9 /* Main.storyboard */,
+			);
+			name = ExampleUsage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +173,7 @@
 				AC9862BC1C911E830025D5D9 /* LaunchScreen.storyboard in Resources */,
 				AC9862B91C911E830025D5D9 /* Assets.xcassets in Resources */,
 				AC9862B71C911E830025D5D9 /* Main.storyboard in Resources */,
+				AC9862CD1C911F940025D5D9 /* Status.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9862CB1C911F150025D5D9 /* UIViewController+Status.m in Sources */,
+				AC9862C51C911EF10025D5D9 /* ViewControllerA.m in Sources */,
 				AC9862B41C911E830025D5D9 /* ViewController.m in Sources */,
 				AC9862B11C911E830025D5D9 /* AppDelegate.m in Sources */,
 				AC9862AE1C911E830025D5D9 /* main.m in Sources */,
+				AC9862C81C911EFD0025D5D9 /* ViewControllerB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
